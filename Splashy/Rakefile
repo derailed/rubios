@@ -1,0 +1,10 @@
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+require 'bubble-wrap' # Thanks Matt!
+
+Motion::Project::App.setup do |app|
+  app.name        = 'Splashy'
+  app.identifier  = 'com.derailed.Splashy'
+  app.sdk_version = '5.1'
+  app.icons       = ['splash.jpg']
+end
