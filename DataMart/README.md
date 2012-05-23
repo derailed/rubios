@@ -1,0 +1,4 @@
+DataMart
+==========
+
+Sample CoreData modeling
