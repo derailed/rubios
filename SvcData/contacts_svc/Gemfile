@@ -1,0 +1,9 @@
+source :rubygems
+
+gem 'activerecord'
+gem 'sinatra'
+
+group :test  do
+  gem "autotest"
+  gem "autotest-growl"
+end

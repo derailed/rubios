@@ -1,0 +1,10 @@
+common: &common
+  adapter:  mysql2
+  encoding: utf8
+  username: root
+  password: ""
+  host:     localhost
+
+development: 
+  <<:       *common
+  database:  contacts_dev

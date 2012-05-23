@@ -10,7 +10,8 @@ Rubymotion examples, handy dependencies or framework extensions..
 
 All contributors welcomed!
 
-== License
+License
+==========
 
 All samples are covered by the MIT license. Feel free to reuse the source code in your projects.
 
