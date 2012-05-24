@@ -44,7 +44,6 @@ class ContactsController < UITableViewController
     BubbleWrap::HTTP.get( "http://localhost:4567/contacts.json" ) do |response|
       if response.ok?
         data = BubbleWrap::JSON.parse( response.body.to_str )
-        p data.inspect
         data.each do |row|
           add_contact( row, false )
         end
