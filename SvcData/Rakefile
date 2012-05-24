@@ -1,6 +1,5 @@
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project'
-require 'motion-cocoapods'
 require 'bubble-wrap'
 
 Motion::Project::App.setup do |app|
@@ -8,8 +7,4 @@ Motion::Project::App.setup do |app|
   app.frameworks += ['CoreData']
   app.sdk_version = '5.1'
   app.icons       = ['database.png']
-  app.pods do
-    dependency 'RestKit/Network'
-    dependency 'RestKit'
-  end  
 end
